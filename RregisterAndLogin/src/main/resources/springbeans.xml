@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+        "http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+        <beans>
+      
+    <bean id="log" class="com.Entity.Login">
+        <constructor-arg index="0" value="9156993099"></constructor-arg>
+        <constructor-arg index="1" value="@pratham12345"></constructor-arg>
+        <constructor-arg index="2" value="Prathamesh"></constructor-arg>
+    </bean>
+
+    
+    <bean id="reg" class="com.Entity.Register">
+        <constructor-arg index="0" value="90009"></constructor-arg>
+        <constructor-arg index="1" value="Prathamesh"></constructor-arg>
+        <constructor-arg index="2" value="Btech"></constructor-arg>
+        <constructor-arg index="3" value="2525"></constructor-arg>
+        <constructor-arg index="4" value="22"></constructor-arg>
+        <constructor-arg index="5" value="Karad"></constructor-arg>
+        <constructor-arg index="6" value="Male"></constructor-arg>
+        <constructor-arg index="7" value="Full Stack Java"></constructor-arg>
+        <constructor-arg index="8" value="25-march-2002"></constructor-arg>
+        <constructor-arg index="9" value="9156993099"></constructor-arg>
+        <constructor-arg index="10" value="@pratham12345"></constructor-arg>
+     
+        <constructor-arg ref="log"></constructor-arg>
+    </bean>
+       
+        
+        </beans>
